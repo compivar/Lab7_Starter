@@ -46,7 +46,6 @@ function initializeServiceWorker() {
   // sw.js is executed.
   // xB1. TODO - Check if 'serviceWorker' is supported in the current browser
   if ('serviceWorker' in navigator) {
-    // Supported!
     console.log("Service worker is supported");
   }
 
