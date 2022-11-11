@@ -96,7 +96,7 @@ async function getRecipes() {
   //            function (we call these callback functions). That function will
   //            take two parameters - resolve, and reject. These are functions
   //            you can call to either resolve the Promise or Reject it.
-  const myPromise = new Promise(async (resolve, reject) => { //Question
+  const myPromise = new Promise(async (resolve, reject) => { 
     
     for(let i = 0; i < RECIPE_URLS.length; i++) {
       let currentRecipe = RECIPE_URLS[i]; //A4
